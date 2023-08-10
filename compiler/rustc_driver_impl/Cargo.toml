@@ -55,7 +55,7 @@ rustc_hir_analysis = { path = "../rustc_hir_analysis" }
 rustc_mir_transform = { path = "../rustc_mir_transform" }
 
 [target.'cfg(unix)'.dependencies]
-libc = "0.2"
+libc = { path = "../../../libc" }
 
 [target.'cfg(windows)'.dependencies.windows]
 version = "0.48.0"

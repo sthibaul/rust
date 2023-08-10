@@ -134,6 +134,7 @@ const EXTRA_CHECK_CFGS: &[(Option<Mode>, &'static str, Option<&[&'static str]>)]
     (Some(Mode::Std), "target_vendor", Some(&["unikraft"])),
     (Some(Mode::Std), "target_env", Some(&["libnx"])),
     (Some(Mode::Std), "target_os", Some(&["teeos"])),
+    (Some(Mode::Std), "target_os", Some(&["hurd"])),
     // #[cfg(bootstrap)] mips32r6, mips64r6
     (
         Some(Mode::Std),
